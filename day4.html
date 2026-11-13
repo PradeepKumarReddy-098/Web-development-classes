@@ -14,13 +14,13 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Mountains</a></li>
             <li><a href="#">Explore</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#form-section">About</a></li>
         </ul>
         <button class="nav-button">Explore</button>
     </nav>
     <section class="hero">
         <span class="tag">Explore the Mountains</span>
-        <h1 class="heading">Where Mountains Meet the Sky</h1>
+        <h1 class="main-heading">Where Mountains Meet the Sky</h1>
         <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo dolores, quaerat, praesentium vero labore non recusandae quibusdam neque perspiciatis aut error minima, id eaque laboriosam? Deleniti consequuntur libero voluptates?</p>
         <button class="main-button">Explore Mountains</button>
     </section>
@@ -29,22 +29,70 @@
         <span>Lorem ipsum dolor, sit amet consectetur</span>
         <h2>Explore The Mountains</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, deleniti omnis laudantium, eius est animi ea ipsam alias saepe tempora dignissimos porro ipsum explicabo fuga voluptatum veritatis nam officiis unde.</p>
-
-        <div class="card">
+        <div class="cards-container">
+        <div class="card card1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKJJBJ_OB-CYmpyoteymGnXaAIj25INbosBpDAuzs2Uw&s" alt="Mountains" class="card-image" />
             <h2>1</h2>
             <h3>Heading</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore nemo error eum, expedita dicta rerum</p>
         </div>
-        <div class="card">
+        <div class="card card2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKJJBJ_OB-CYmpyoteymGnXaAIj25INbosBpDAuzs2Uw&s" alt="Mountains" class="card-image" />
             <h2>2</h2>
             <h3>Heading</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore nemo error eum, expedita dicta rerum</p>
         </div>
-        <div class="card">
+        <div class="card card3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKJJBJ_OB-CYmpyoteymGnXaAIj25INbosBpDAuzs2Uw&s" alt="Mountains" class="card-image" />
             <h2>3</h2>
             <h3>Heading</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore nemo error eum, expedita dicta rerum</p>
         </div>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <h2>Explore the Video</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni accusantium repellat pariatur</p>
+        <video controls autoplay width="500" height="500">
+            <source src="./video.mp4" type="video/mp4"/>
+        </video>
+    </section>
+
+    <section class="form-section" id="form-section">
+        <h1>Share Your Details</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit eum similique tempore</p>
+        <form class="form">
+            <div class="form-element">
+            <label class="label">Name</label><br />
+            <input type="text" placeholder="Enter Your Name"  class="input-text"/>
+            </div>
+            <div class="form-element">
+            <label class="label">Phone</label><br />
+            <input type="tel" placeholder="Enter you phone number"  class="input-text"/>
+            </div>
+
+            <div class="form-element">
+                <label class="label">Select</label><br />
+                <select>
+                    <option>Land</option>
+                    <option>River</option>
+                    <option selected>Pond</option>
+                    <option>River</option>
+                </select>
+            </div>
+
+            <div class="form-element">
+                <label class="label">Gender</label><br />
+                <input type="radio" name="gender" /><label>Male</label>
+                <input type="radio" name="gender" /><label>Female</label>
+            </div>
+
+            <div class="form-element">
+                <input type ="checkbox" /> <label>Agree to our Terms and conditions</label>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
     </section>
 </body>
 </html>
